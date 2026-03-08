@@ -111,7 +111,7 @@ export default function Layout({ children }) {
             gtag('config', 'G-S6CCCYDF08');
           `}
         </Script>
-        {/* Google Ads (AW-17927547758) */}
+        {/* Google Ads (AW-18001935188) */}
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=AW-17968841658"
           strategy="afterInteractive"
@@ -121,7 +121,7 @@ export default function Layout({ children }) {
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', 'AW-17927547758');
+            gtag('config', 'AW-18001935188');
           `}
         </Script>
 
