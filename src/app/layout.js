@@ -97,20 +97,8 @@ export default function Layout({ children }) {
         />
         <link rel="stylesheet" href="/css/style.css" type="text/css" />
     
-        <meta name="google-site-verification" content="J4jrkz6_PD9FvgrdULLwuyAp6hq_JIVx9CXgRplG7xw" />
-        {/* Google Analytics (G-S6CCCYDF08) */}
-        <Script
-          src="https://www.googletagmanager.com/gtag/js?id=G-S6CCCYDF08"
-          strategy="afterInteractive"
-        />
-        <Script id="ga-main" strategy="afterInteractive">
-          {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-S6CCCYDF08');
-          `}
-        </Script>
+        <meta name="google-site-verification" content="gubtxIvp2Uc-xqowt9NifxvgrCFdzbj8kDcOYw-TVKU" />
+        
         {/* Google Ads (AW-18001935188) */}
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=AW-17968841658"
