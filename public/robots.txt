@@ -15,6 +15,11 @@ Disallow: /bind-bank-card
 Disallow: /history
 Disallow: /statements
 Disallow: /invite
+Disallow: /disclaimer
+Disallow: /refund-policy
+Disallow: /terms&conditions
+Disallow: /about-us
+Disallow: /contact-us
 
 # Allow Google to access everything except above
 Allow: /
