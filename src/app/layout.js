@@ -3,7 +3,7 @@ import Script from "next/script";
 import LayoutClient from "./LayoutClient";
 
 export const metadata = {
-  title: "Angelx.co → India’s #1 Trusted USDT-to-INR Exchange Platform",
+  title: "AngelX → USDT selling Platform",
   description:
     "Log in to AngelX for instant USDT-to-INR conversions at the best market rates. Lightning-fast processing, secure payouts, and trusted support—log in and sell your crypto in minutes.",
   keywords: [
@@ -13,11 +13,11 @@ export const metadata = {
     "angelx login",
     "angelx pro",
     "angelx pro apk",
-    "angelx ind in",
+    "angelx usdt",
     "angelx exchange",
   ],
   alternates: {
-    canonical: "https://www.angelx.pro/",
+    canonical: "https://angelex.co/",
   },
   robots: {
     index: true,
@@ -50,12 +50,12 @@ export const metadata = {
     title: "Welcome to AngelX → India’s #1 Trusted USDT Exchange Platform",
     description:
       "Log in to AngelX for instant USDT to INR conversions at the best market rates. Fast processing, secure payouts, reliable support—quickly access your account and sell crypto easily.",
-    url: "https://www.angelx.pro/",
+    url: "https://angelex.co/",
     siteName: "AngelX",
     locale: "en_IN",
     images: [
       {
-        url: "https://www.angelx.pro/images/og-image.png",
+        url: "https://angelex.co/images/logo-icon.png",
         width: 1200,
         height: 630,
         alt: "AngelX USDT Exchange Platform",
@@ -68,7 +68,7 @@ export const metadata = {
     description:
       "Log in to AngelX for instant USDT to INR conversions at the best market rates. Fast processing, secure payouts, reliable support—quickly access your account and sell crypto easily.",
     site: "@AngelX",
-    images: ["https://www.angelx.pro/images/og-image.png"],
+    images: ["https://angelex.co/images/logo-icon.png"],
   },
 };
 
@@ -132,10 +132,10 @@ export default function Layout({ children }) {
               "@context": "https://schema.org",
               "@type": "WebSite",
               "name": "AngelX",
-              "url": "https://www.angelx.pro/",
+              "url": "https://angelex.co/",
               "potentialAction": {
                 "@type": "SearchAction",
-                "target": "https://www.angelx.pro/search?q={search_term_string}",
+                "target": "https://angelex.co/search?q={search_term_string}",
                 "query-input": "required name=search_term_string"
               }
             })
@@ -147,10 +147,10 @@ export default function Layout({ children }) {
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "FinancialService",
-              "@id": "https://www.angelx.pro/#organization",
+              "@id": "https://angelex.co/#organization",
               "name": "AngelX",
-              "url": "https://www.angelx.pro/",
-              "logo": "https://www.angelx.pro/images/logo-icon.png",
+              "url": "https://angelex.co/",
+              "logo": "https://angelex.co/images/logo-icon.png",
               "description": "Exchange USDT for INR instantly on AngelX—high rates, fast processing, immediate payouts, strong security, reliable support, and easy crypto selling for seamless trades.",
               "areaServed": {
                 "@type": "Country",
@@ -174,8 +174,8 @@ export default function Layout({ children }) {
             "aggregateRating": {
               "@type": "AggregateRating",
               "ratingValue": "4.9",
-              "ratingCount": "7966",
-              "reviewCount": "7966"
+              "ratingCount": "5766",
+              "reviewCount": "5766"
             }
           }
           `,
